@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="waterfallApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Waterfall&BigToSmallButton_Test</title>
+    <link href="css/app.css" rel="stylesheet" type="text/css" >
+    <script src="Js/angular.min.js"></script>
+    <script src="Js/App_angular.js"></script>
+    <script src="waterfall&BigToSmall/waterloofall&BigToSmall.js"></script>
+
+</head>
+<body >
+
+<section ng-controller="displayCtrl">
+
+    <div id="mainPanel">
+
+        <div class="topbar">
+            <ul>
+                <li> <a title="change_big" id="btn1" class="btn_big_on"></a> <span>Change to small</span> </li>
+                <li> <a title="change_small" id="btn2" class="btn_small_off"></a> <span>Change to big</span> </li>
+            </ul>
+        </div>
+
+        <div class="box" ng-repeat=" item in datas">
+            <a class="picBox" >
+                <img ng-src="{{item.src}}" alt="test">
+            </a>
+            <p>{{item.description}} </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+</body>
+</html>

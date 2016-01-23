@@ -1,0 +1,84 @@
+#mainPanel{
+    height:auto;
+    width:1656px;
+    border:1px solid grey;
+    margin: 0px auto;  /* set the block to the center */
+    overflow: hidden;  /* extend the box */
+    background-image: url("/pic/1.jpg");
+}
+
+.topbar{
+
+    height:160px;
+    width:1656px;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+
+
+.topbar a{
+
+    height: 20px;
+    width:20px;
+    display: block;
+    margin: 5px;
+    border: 1px solid grey;
+}
+
+#test{
+    height:50px;
+    width: 1656px;
+}
+
+.btn_big_on{ background-color: cadetblue;}
+.btn_big_off { background-color: aqua;}
+.btn_small_on{ background-color: brown;}
+.btn_small_off{ background-color: crimson;}
+.waterfall_on{ background-color: greenyellow;}
+.waterfall_off{background-color:green; }
+
+.box {
+    display: block;
+    border: 2px solid grey;
+    margin: 2px;
+    height: auto;
+    width: 304px;
+    padding: 10px;
+    position: relative;
+    float: left;
+}
+
+
+.picBox{
+
+    display: block;
+    margin: auto;
+    height:225px;
+    width:300px;
+}
+
+
+
+.small{
+    height:75px;
+    width: 100px;
+    overflow: hidden;
+    float: left;
+}
+
+p{
+    display:block;
+    line-height:23px;
+    padding-left:10px;
+}
+
+#test{
+    height: 800px;
+    witdth: 800px;
+    border: 2px solid green ;
+    margin: 10px auto;
+}
